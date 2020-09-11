@@ -38,7 +38,10 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     func renderer(_ renderer: SCNSceneRenderer, didAdd node: SCNNode, for anchor: ARAnchor) {
         if anchor is ARBodyAnchor {
-            let sphere = SCNNode(geometry: SCNSphere(radius: 1))
+            let geometory = SCNSphere(radius: 1)
+            geometory.firstMaterial?.diffuse.contents = UIColor.init(red: 175/255, green: 255/255, blue: 255/255, alpha: 200/255)
+            let sphere = SCNNode(geometry: geometory)
+            
             node.addChildNode(sphere)
         }
     }
