@@ -7,14 +7,10 @@
 //
 
 import UIKit
-import RealityKit
 import ARKit
-import SceneKit
 
 class ViewController: UIViewController, ARSCNViewDelegate {
     @IBOutlet var sceneView: ARSCNView!
-    
-    @IBOutlet var arView: ARView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
