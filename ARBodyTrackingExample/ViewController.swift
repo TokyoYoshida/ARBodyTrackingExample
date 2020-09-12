@@ -32,7 +32,6 @@ class ViewController: UIViewController, ARSCNViewDelegate {
 
     fileprivate func startARKit() {
         let configuration = ARBodyTrackingConfiguration()
-        sceneView.delegate = self
         sceneView.session.run(configuration)
     }
 
