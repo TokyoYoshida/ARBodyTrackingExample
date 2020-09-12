@@ -1,6 +1,6 @@
 # ARBodyTrackingExample
 
-A very simple sample of ARBodyTracking in ARKit on iOS.
+A very simple exsample of ARBodyTracking in ARKit on iOS.
 
 ### Execution result
 
